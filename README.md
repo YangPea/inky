@@ -13,6 +13,6 @@
 - **资料：** 这里是一些关于书法的文字资料，任何人都可以浏览。
 ## 截图
 <div align=center>
-    <img src="./pic/111.jpg" width="35%" margin="20px"/>
-    <img src="./pic/222.jpg" width="35%" margin="20px"/>
+    <img src="./pic/111.jpg" width="35%"/>
+    <img src="./pic/222.jpg" width="35%"/>
 </div>
