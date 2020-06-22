@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/camera"
+        android:title="拍照"/>
+    <item android:id="@+id/photo"
+        android:title="从相册中选取"/>
+</menu>

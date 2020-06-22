@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:paddingBottom="52dp"
+    >
+
+<!--    android:background="#dfe4ea"-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pic_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="-69dp"></androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/float_button"
+        app:elevation="6dp"
+        android:clickable="true"
+        app:borderWidth="0dp"
+        android:backgroundTint="#2bcbba"
+        app:rippleColor="#0097a7"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/ic_baseline_add_24_white"
+        app:pressedTranslationZ="12dp"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>

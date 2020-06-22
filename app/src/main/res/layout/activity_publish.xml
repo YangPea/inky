@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Publish"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="随便说说吧"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/pic_btn"-->
+<!--        android:layout_width="86dp"-->
+<!--        android:layout_height="86dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:text="+"-->
+<!--        android:textSize="30dp"-->
+<!--        app:elevation="6dp"-->
+<!--        app:rippleColor="#0097a7" />-->
+    <ImageView
+        android:id="@+id/pic_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        app:elevation="6dp"
+        android:background="#dfe4ea"
+        />
+
+</LinearLayout>
