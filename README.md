@@ -12,5 +12,7 @@
 - **上传：** 用户可以点击右下角加号上传自己的书法作品。
 - **资料：** 这里是一些关于书法的文字资料，任何人都可以浏览。
 ## 截图
- ![source page](./pic/222.jpg =100px)
-<div align=center><img src="./pic/111.jpg" width="50%"/></div>
+<div align=center>
+    <img src="./pic/111.jpg" width="40%"/>
+    <img src="./pic/222.jpg" width="40%"/>
+</div>
